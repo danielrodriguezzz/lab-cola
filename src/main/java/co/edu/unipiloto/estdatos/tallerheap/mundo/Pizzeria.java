@@ -5,7 +5,10 @@ import java.util.ArrayList;
 public class Pizzeria 
 {	
 	// ----------------------------------
+    
+    
     // Constantes
+   
     // ----------------------------------
 	
 	/**
@@ -30,7 +33,9 @@ public class Pizzeria
     // ----------------------------------
 	
 	/**
+         *
 	 * Heap que almacena los pedidos recibidos
+         * 
 	 */
 	// TODO 
 	/**
@@ -55,21 +60,23 @@ public class Pizzeria
 	 */
 	public Pizzeria()
 	{
-		// TODO 
+	pedidosRecibidos = new priorityQyueue<>();
+        colaDespachos = new ArrayList<>();
 	}
 	
 	// ----------------------------------
     // Métodos
     // ----------------------------------
-	
+
 	/**
 	 * Agrega un pedido a la cola de prioridad de pedidos recibidos
 	 * @param nombreAutor nombre del autor del pedido
 	 * @param precio precio del pedido 
 	 * @param cercania cercania del autor del pedido 
 	 */
-	public void agregarPedido(String nombreAutor, double precio, int cercania)
-	{
+	public void agregarPedido(String nombreAutor, double precio, int cercania){
+          pedido nuevoPedido = new (nombreAutro,precio,cercania);
+          pedidosRecibidos.
 		// TODO 
 	}
 	

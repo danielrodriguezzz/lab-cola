@@ -5,6 +5,7 @@ public class Pedido
 
 	// ----------------------------------
 	// Atributos
+    
 	// ----------------------------------
 
 	/**
@@ -24,6 +25,15 @@ public class Pedido
 	
 	// ----------------------------------
 	// Constructor
+
+    public Pedido(double precio, String autorPedido, int cercania) {
+        this.precio = precio;
+        this.autorPedido = autorPedido;
+        this.cercania = cercania;
+    }
+        
+        
+        
 	// ----------------------------------
 	
 	/**
@@ -33,6 +43,8 @@ public class Pedido
 	
 	// ----------------------------------
 	// Métodos
+    
+    
 	// ----------------------------------
 	
 	/**
